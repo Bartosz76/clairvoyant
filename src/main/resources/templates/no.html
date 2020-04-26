@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="no.css">
 </head>
 <body>
 <div>Impossible! Let me try again!</div>
-<form method="post">
-<div class="button">
-    <a class="menu-button" href="/failed">No, you failed!</a>
-</div>
+<form action="/no" method="post">
     <input type="submit" value="Try again!">
+</form>
+
+<form action="/failed" method="post">
+    <input type="submit" value="No, you failed!">
 </form>
 
 </body>
