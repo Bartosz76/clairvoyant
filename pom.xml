@@ -8,12 +8,6 @@
     <artifactId>guessinggame</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>LATEST</version>
-    </parent>
-
 
     <dependencies>
 
