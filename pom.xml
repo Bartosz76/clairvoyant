@@ -51,7 +51,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.mypackage.MyClass</mainClass>
+                            <mainClass>com.guessing.game.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
