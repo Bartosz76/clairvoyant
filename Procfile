@@ -1,2 +1,1 @@
-web java -Dserver.port=$PORT $JAVA_OPTS -jar target/guessinggame-1.0-SNAPSHOT.jar
-
+web: java SJAVA_OPTS -jar target/dependency/web-runner.jar --port SPORT target /*.war
