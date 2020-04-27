@@ -8,14 +8,13 @@
 <div id="header">
 <div th:text="'The number you thought about is: ' + ${generatedNumber}"/>
 </div>
-<form method="post">
+
 <div class="overall">Did I get it right?</div>
-
-        <div class="button">
-            <a class="menu-button" href="/yes">Yes!</a>
-            <a class="menu-button" href="/no">No!</a>
-        </div>
-</form>
-
+    <form action="yes" method="post">
+        <input type="submit" value="Yes!">
+    </form>
+    <form action="no" method="post">
+        <input type="submit" value="No!">
+    </form>
 </body>
 </html>
