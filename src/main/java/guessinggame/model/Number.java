@@ -1,4 +1,4 @@
-package guessing.game.model;
+package guessinggame.model;
 
 public class Number {
 

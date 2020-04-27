@@ -1,6 +1,6 @@
-package guessing.game.controllers;
+package guessinggame.controllers;
 
-import guessing.game.service.NumberService;
+import guessinggame.service.NumberService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

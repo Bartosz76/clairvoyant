@@ -1,4 +1,4 @@
-package guessing.game.service;
+package guessinggame.service;
 
 import org.springframework.stereotype.Service;
 
