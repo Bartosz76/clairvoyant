@@ -1,0 +1,4 @@
+guessinggame\App.class
+guessinggame\controllers\NumberController.class
+guessinggame\service\NumberService.class
+guessinggame\model\Number.class
