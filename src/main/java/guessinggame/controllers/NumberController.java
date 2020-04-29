@@ -1,13 +1,12 @@
 package guessinggame.controllers;
 
 import guessinggame.service.NumberService;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class NumberController {
 
 
@@ -17,41 +16,41 @@ public class NumberController {
         this.numberService = numberService;
     }
 
-    @RequestMapping(value = "home", method = RequestMethod.GET)
+    @GetMapping("/home")
     public String getHome() {
         return "home";
     }
 
-    @RequestMapping(value = "home", method = RequestMethod.POST)
+    @PostMapping("/home")
     public String home() {
         return "home";
     }
 
-    @RequestMapping(value = "/firstGuess", method = RequestMethod.POST)
+    @PostMapping("/firstGuess")
     public String firstResult(Model model) {
         int generatedNumber = numberService.random();
         model.addAttribute("generatedNumber", generatedNumber);
         return "firstGuess";
     }
 
-    @RequestMapping(value = "no", method = RequestMethod.POST)
+    @PostMapping("/no")
     public String failed() {
         return "no";
     }
 
-    @RequestMapping(value = "failed", method = RequestMethod.POST)
+    @PostMapping("/failed")
     public String answeredNo() {
         return "failed";
     }
 
-    @RequestMapping(value = "tryagain", method = RequestMethod.POST)
+    @PostMapping("/tryagain")
     public String triedAgain(Model model) {
         int generatedAgain = numberService.random();
         model.addAttribute("generatedAgain", generatedAgain);
         return "tryagain";
     }
 
-    @RequestMapping(value = "yes", method = RequestMethod.POST)
+    @PostMapping("/yes")
     public String answeredYes() {
         return "yes";
     }
