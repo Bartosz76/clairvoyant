@@ -39,8 +39,6 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>4.2.1</version>
-                <extensions>true</extensions>
                 <configuration>
                     <instructions>
                         <Include-Resource>
@@ -52,20 +50,14 @@
             <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
-                <extensions>true</extensions>
-                <version>2.8.2</version>
             </plugin>
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <version>3.0.2</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <extensions>true</extensions>
-                <version>3.8.1</version>
                 <configuration>
                     <verbose>true</verbose>
                     <source>1.8</source>
@@ -76,8 +68,6 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <version>2.2</version>
                 <configuration>
                     <path>/</path>
                     <contextReloadable>true</contextReloadable>
@@ -86,8 +76,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <extensions>true</extensions>
-                <version>2.10</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
