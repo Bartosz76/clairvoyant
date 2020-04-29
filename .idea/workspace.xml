@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110a3309-e7ff-46e0-8344-b8aeb74a3b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guessinggame/controllers/NumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guessinggame/controllers/NumberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/firstGuess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/firstGuess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tryagain.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tryagain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/yes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/yes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,7 @@
       <workItem from="1587892255156" duration="3833000" />
       <workItem from="1587999037553" duration="15405000" />
       <workItem from="1588061892645" duration="14523000" />
-      <workItem from="1588174399003" duration="12096000" />
+      <workItem from="1588174399003" duration="12336000" />
     </task>
     <servers />
   </component>
