@@ -10,7 +10,9 @@ public class NumberService {
         doubleRandom = (doubleRandom * 100) + 1;
         int guessedNumber = (int) doubleRandom;
         return guessedNumber;
+    }
 
-
+    public int additionForCICDTestingPurposes(int a, int b){
+        return a + b;
     }
 }

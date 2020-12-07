@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110a3309-e7ff-46e0-8344-b8aeb74a3b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guessinggame/service/NumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guessinggame/service/NumberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guessinggame/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guessinggame/controllers/NumberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guessinggame/model/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guessinggame/service/NumberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/no.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/failed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/firstGuess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/no.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/tryagain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/yes.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,7 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,8 +81,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guessinggame.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -124,7 +151,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Spring Boot.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -155,7 +181,13 @@
       <workItem from="1587892255156" duration="3833000" />
       <workItem from="1587999037553" duration="15405000" />
       <workItem from="1588061892645" duration="14523000" />
-      <workItem from="1588174399003" duration="12336000" />
+      <workItem from="1588174399003" duration="15618000" />
+      <workItem from="1588434090538" duration="35000" />
+      <workItem from="1588689618105" duration="1539000" />
+      <workItem from="1588790173640" duration="647000" />
+      <workItem from="1590781460899" duration="1310000" />
+      <workItem from="1599753696467" duration="626000" />
+      <workItem from="1607373825206" duration="494000" />
     </task>
     <servers />
   </component>
@@ -163,66 +195,28 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588015248258">
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog" timestamp="1607374058290">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="532" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1588015248258" />
-    <state x="504" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588022213167">
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1607374058290" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607373893281">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="504" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1588022213167" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1584173525319">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584173525319" />
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1588189454006">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588189454006" />
-    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1588189454006">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588189454006" />
-    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1588189454006">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588189454006" />
-    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1588189454006">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588189454006" />
-    <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1588114123845">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588114123845" />
-    <state width="1493" height="259" key="GridCell.Tab.1.center" timestamp="1588114123845">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1588114123845" />
-    <state width="1493" height="259" key="GridCell.Tab.1.left" timestamp="1588114123845">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1588114123845" />
-    <state width="1493" height="259" key="GridCell.Tab.1.right" timestamp="1588114123845">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="259" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1588114123845" />
-    <state x="277" y="61" key="SettingsEditor" timestamp="1588180474693">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="277" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1588180474693" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1588174546465">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1588174546465" />
-    <state x="463" y="15" width="609" height="804" key="find.popup" timestamp="1588063347575">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="463" y="15" width="609" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1588063347575" />
-    <state x="814" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1588018681206">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="814" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1588018681206" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1607373893281" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/guessinggame/service/NumberServiceTest.java</url>
+          <line>12</line>
+          <properties class="guessinggame.service.NumberServiceTest" method="additionForCICDTestingPurposes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
